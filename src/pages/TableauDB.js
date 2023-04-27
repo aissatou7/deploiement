@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import './Style2.css'
 import porteO from '../images/porteO.png'
 import porteF from '../images/porteF.png'
@@ -14,7 +14,7 @@ import io from 'socket.io-client'
 
 
 const TableauDB = () => {
-  let extracteur = "Éteint"
+ // let extracteur = "Éteint"
   
  
 

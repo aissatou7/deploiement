@@ -9,7 +9,7 @@ function Historiques() {
   const [active1, setActive1] = useState(true);
   const [active2, setActive2] = useState(false);
   const [rechercher, setRecherche] = useState("");
-  const [cacher2, setCacher2] = useState(true);
+  //const [cacher2, setCacher2] = useState(true);
 
   useEffect(() => {
     fetch("http://localhost:5000/api/recu", {

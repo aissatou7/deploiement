@@ -26,13 +26,13 @@ function Header() {
   const [heure2, setHeure2] = useState('')
   const [dure, setDure] = useState('')
   const [Duredefaut, setDuredefaut] = useState('')
-  const [heuredefaut, setHeuredefaut] = useState('')
+ // const [heuredefaut, setHeuredefaut] = useState('')
   const [choix, setChoix] = useState('')
   const [news, setNews] = useState('')
   const [seconde, setSeconde] = useState('')
   const [minute, setMinute] = useState('')
   const [heure, setHeure] = useState('')
-  const [mois, setMois] = useState('')
+ const [mois, setMois] = useState('')
   const [jour, setJour] = useState('')
   const [annee, setAnnee] = useState('')
   const [periode, setPeriode] = useState('')
@@ -55,19 +55,19 @@ function Header() {
   
   }
   const parame = ()=>{
-    localStorage.removeItem("Heure1");
-    localStorage.removeItem("Heure2");
-    localStorage.removeItem("Duree");
-    localStorage.removeItem("Duredefaut");
-    localStorage.removeItem("heuredefaut");
-    localStorage.removeItem("choix");
-    localStorage.setItem("Heure1", heure1);
-    localStorage.setItem("Heure2", heure2);
-    localStorage.setItem("Duree", dure);
-    localStorage.setItem("Duredefaut", Duredefaut);
-    localStorage.setItem("heuredefaut", heuredefaut);
-    localStorage.setItem("choix", choix);
-    localStorage.setItem("news", news);
+    // localStorage.removeItem("Heure1");
+    // localStorage.removeItem("Heure2");
+    // localStorage.removeItem("Duree");
+    // localStorage.removeItem("Duredefaut");
+    // localStorage.removeItem("heuredefaut");
+    // localStorage.removeItem("choix");
+    // localStorage.setItem("Heure1", heure1);
+    // localStorage.setItem("Heure2", heure2);
+    // localStorage.setItem("Duree", dure);
+    // localStorage.setItem("Duredefaut", Duredefaut);
+    // localStorage.setItem("heuredefaut", heuredefaut);
+    // localStorage.setItem("choix", choix);
+    // localStorage.setItem("news", news);
 
 
     
@@ -99,7 +99,7 @@ function Header() {
            
           });
 /*         } 
- */    }, [minute]);
+ */    }, [minute,temp,humsol,hum,lum,periode]);
 
   setInterval(() => repeter(), 1000);
 

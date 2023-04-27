@@ -12,7 +12,7 @@ const ENDPOINT = "http://localhost:5000/api/connexion";
 const LoginForm = () => {
     /* const [isLoading, setIsLoading] =useState(true); */
     const [error, setErrror] = useState(null);
-    const [login, setLogin] = useState(null);
+  //  const [login, setLogin] = useState(null);
 
     /*  hooks-form*/
     const {
